@@ -18,7 +18,7 @@
 		font-family: 'Kaushan Script', cursive;
 	}
 	
-	.container-1 {
+	.flex-grid {
 		display: flex;
 		flex-wrap: wrap;
 		position: sticky;
@@ -142,9 +142,10 @@
 		box-shadow: 0 0 0;
 	}
 
-	.container-1 {
+	.flex-grid {
 		border-bottom: 1px solid #02b3e4;
 		padding-bottom: 15px;
+		justify-content: space-between;
 	}
 
 	.elem-5, .elem-7 {
@@ -157,15 +158,11 @@
 		margin-left: 20px;
 	}
 	
-	.container-2 {
+	.flex-grid-2 {
 		display: flex;
 		flex-wrap: nowrap;
 		width: 100%;
 		justify-content: center;
-	}
-
-	.container-1 {
-		justify-content: space-between;
 	}
 
 	p {
@@ -193,5 +190,10 @@
 	
 	.img-1 {
 		align-items: center;
+	}
+
+	.flex-grid {
+		margin: 0 115px 0 115px;
+
 	}
 }
