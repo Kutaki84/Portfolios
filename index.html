@@ -1,172 +1,36 @@
-	body, html {
-		margin: 0;
-		padding: 0;
-		max-width: 100%;
-		height: 100%;
-	}
-	h1, h2 {
-		margin: 0;
-	}
-	header, nav, footer, section, article, div {
-		box-sizing: border-box;
-	}
-	body {
-		font-family: 'Kaushan Script', cursive;
-	}
-	.flex-grid {
-		display: flex;
-		flex-wrap: wrap;
-		position: sticky;
-		top: 0px;
-		right: 0px;
-		background-color: white;
-		margin-bottom: 1px;
-		z-index: 1;
-	}
-	.elem-1 {
-		width: 90px;
-		height: 90px;
-		margin-bottom: 10px;
-	}
-	h1 {
-		width: 50%;
-		text-align: center;
-		font-size: 2.8em;
-		margin: 20px 0 20px 10px;
-		text-shadow: 1px 1px 1px;
-		color: #02b3e4;
-	}
-	h2 {
-		width: 100%;
-		text-align: center;
-		background-color: #7d97ad;
-		font-size: 1.5em;
-		-webkit-box-shadow: -1px 15px 10px 0px rgba(94, 83, 94, 1);
-		-moz-box-shadow: -1px 15px 10px 0px rgba(94, 83, 94, 1);
-		box-shadow: -1px 15px 10px 0px rgba(94, 83, 94, 1);
-	}
-	p {
-		display: flex;
-		font-size: 1.5em;
-		width: 100%;
-		justify-content: center;
-		padding: 10px 0px 10px 0px;
-		color: #02b3e4;
-		text-shadow: 1px 1px 1px black;
-	}
-	.elem-2, .elem-4, .elem-6 {
-		max-width: 95%;
-		-webkit-box-shadow: -1px 24px 34px -14px rgba(0, 0, 0, 0.75);
-		-moz-box-shadow: -1px 24px 34px -14px rgba(0, 0, 0, 0.75);
-		box-shadow: -1px 24px 34px -14px rgba(0, 0, 0, 0.75);
-		border-radius: 10px;
-		margin: 5px 0 0 10px;
-		text-align: center;
-	}
-	.img-1 {
-		width: 100%;
-	}
-	.elem-3, .elem-5, .elem-7 {
-		text-align: center;
-	}
-	.elem-3 {
-		margin-top: 25px;
-	}
-	.elem-7 {
-		margin-bottom: 30px;
-	}
-	.img-p {
-		width: 100%;
-	}
-	footer {
-		margin-left: 100px;
-	}
-	@media screen and (max-width: 298px) {
-		p {
-			display: none;
-		}
-		h1 {
-			font-size: 1em;
-		}
-		.elem-1 {
-			width: 50px;
-			height: 50px;
-		}
-	}
-	@media screen and (max-width:322px) {
-		p {
-			font-size: 1em;
-			display: flex;
-			justify-content: center;
-		}
-		h1 {
-			margin-left: 2px;
-		}
-	}
-	@media screen and (min-width: 558px) {
-		h1 {
-			display: flex;
-			padding: 0px;
-			width: 40%;
-			justify-content: flex-end;
-		}
-		h2 {
-			background: white;
-			text-align: right;
-			margin-right: 10px;
-			box-shadow: 0 0 0;
-		}
-		.flex-grid {
-			display: flex;
-			flex-wrap: wrap;
-			border-bottom: 1px solid #02b3e4;
-			padding-bottom: 15px;
-			justify-content: space-between;
-		}
-		.elem-5, .elem-7 {
-			width: 30%;
-		}
-		.elem-3 {
-			margin: initial;
-			width: 27%;
-		}
-		.flex-grid-2 {
-			display: flex;
-			justify-content: center;
-		}
-		p {
-			display: flex;
-			margin: 10px 10px 10px 50px;
-			width: 90%;
-			justify-content: center;
-			text-align: center;
-		}
-	}
-	@media screen and (min-width: 850px) {
-		.img-p {
-			display: block;
-			margin: auto;
-			max-width: 800px;
-			height: 500px;
-		}
-		h1 {
-			margin-right: 10px;
-		}
-		.img-1 {
-			display: flex;
-			align-items: center;
-		}
-		.flex-grid {
-			display: flex;
-			flex-wrap: wrap;
-			margin: 0 110px 0 110px;
-		}
-		.flex-grid-2 {
-			width: 100%;
-			padding: 0;
-			margin: 0;
-		}
-		p {
-			margin-top: 0px;
-		}
-	}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolios</title>
+	<meta charset="UTF-8">
+	<meta content="Descripción de la WEB" name="description">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="styles.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+</head>
+<body>
+	<div class="flex-grid">
+		<img alt="logo" class="elem-1" src="img/logo.png">
+		<h1>Elisabeth Lucas</h1>
+		<h2>FRONT-END DEVELOPER</h2>
+	</div>
+	<div class="img-p"><img alt="A girl in the mountain" class="img-1" src="img/me3.jpg"></div>
+	<div class="elem-0">
+		<p>I changed the direction of my career and now I discovered the front-end web developer and I love it. These are my projects so far:</p>
+	</div>
+	<div class="flex-grid-2">
+		<div class="elem-3">
+			<a href="https://codepen.io/Kutaki/full/xpLWZg/" target="_blank"><img alt="web of art" class="elem-2" src="img/puzzle.png">PROYECT 1</a>
+		</div>
+		<div class="elem-5">
+			<a href="https://codepen.io/Kutaki/full/bLvyEB/" target="_blank"><img alt="card of rats" class="elem-4" src="img/travel.png">PROYECT 2</a>
+		</div>
+		<div class="elem-7">
+			<a href="https://codepen.io/Kutaki/full/BYKroB/" target="_blank"><img alt="proyect of grid" class="elem-6" src="img/canvas.png">PROYECT 3</a>
+		</div>
+	</div>
+	<footer>
+		<p class="foot">By Kutaki</p>
+	</footer>
+</body>
+</html>
