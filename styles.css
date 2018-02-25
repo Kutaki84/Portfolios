@@ -167,4 +167,10 @@
 		p {
 			margin-top: 0px;
 		}
+		.elem-2, .elem-4, .elem-6 {
+			max-width: 100%;
+			margin: 10px;
+			
+
+	}
 	}
