@@ -170,6 +170,9 @@
 		.elem-2, .elem-4, .elem-6 {
 			max-width: 100%;
 			margin: 10px;
+			display:flex;
+			flex-wrap: nowrap;
+			justify-content: space-between;
 			
 
 	}
