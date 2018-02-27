@@ -1,7 +1,6 @@
 body {
 	box-sizing: border-box;
 	font-family: 'Berkshire Swash', cursive;
-
 }
 .container-1 {
 	box-sizing: border-box;
@@ -11,21 +10,7 @@ body {
 	height: auto;
 	width: 100%;
 	flex-wrap: nowrap;
-	justify-content: space-between;		
-body {
-	box-sizing: border-box;
-	font-family: 'Berkshire Swash', cursive;
-
-}
-.container-1 {
-	box-sizing: border-box;
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
-	height: auto;
-	width: 100%;
-	flex-wrap: nowrap;
-	justify-content: space-between;		
+	justify-content: space-between;
 	border-bottom: 2px solid orange;
 }
 .container-2 {
@@ -62,7 +47,6 @@ body {
 	margin-left: 5px;
 	margin-right: 5px;
 	text-align: center;
-
 }
 .elem-6 {
 	width: 100%;
@@ -78,30 +62,28 @@ body {
 }
 .elem-1, .elem-2 {
 	width: 50%;
-	}
+}
 .imag-1 {
 	width: 50px;
 	height: 50px;
-	}
+}
 h1 {
 	font-size: 20px;
-	}
-	.imag-2 {
-		width:100%;
-		border-radius: 10px;
-		border: 2px solid black;
-	}
-	.imag-3, .imag-4, .imag-5 {
-		width: 100%;
-		border-radius: 10px;
-		box-shadow: 2px 2px 10px black;
-		margin-top: 10px;
-	}
-	.elem-6, .elem-7, .elem-8{
-		text-align: center;
-	}
-
-
+}
+.imag-2 {
+	width: 100%;
+	border-radius: 10px;
+	border: 2px solid black;
+}
+.imag-3, .imag-4, .imag-5 {
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 2px 2px 10px black;
+	margin-top: 10px;
+}
+.elem-6, .elem-7, .elem-8 {
+	text-align: center;
+}
 @media screen and (min-width: 400px) {
 	h2 {
 		text-align: center;
@@ -121,7 +103,7 @@ h1 {
 	}
 	.elem-6, .elem-7, .elem-8 {
 		max-width: 70%;
-			}
+	}
 	.container-3 {
 		display: flex;
 		flex-wrap: wrap;
@@ -144,7 +126,6 @@ h1 {
 		width: 100%;
 	}
 }
-
 @media screen and (min-width: 600px) {
 	.container-3 {
 		display: flex;
@@ -152,163 +133,20 @@ h1 {
 	}
 	.elem-6, .elem-7, .elem-8 {
 		max-width: 33%;
-		margin:10px;
+		margin: 10px;
 	}
 	.imag-3, .imag-4, .imag-5 {
-		height: 100%;	
+		height: 100%;
 	}
 	p {
 		font-size: 1.5em;
 	}
 }
-
 @media screen and (min-width: 800px) {
 	body {
 		max-width: 70%;
-		margin:auto;	}
-	.container-2 {
-		margin-left: 3px;
+		margin: auto;
 	}
-}	border-bottom: 2px solid orange;
-}
-.container-2 {
-	box-sizing: border-box;
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
-	height: auto;
-}
-.elem-1 {
-	width: 100%;
-	height: auto;
-}
-.elem-2 {
-	width: 100%;
-	height: auto;
-	text-align: right;
-	color: orange;
-	text-shadow: 1px 1px 1px black;
-}
-.elem-3 {
-	width: 100%;
-	height: auto;
-	text-align: center;
-	text-shadow: 1px 1px 1px #00C896;
-}
-.elem-4 {
-	width: 100%;
-	height: auto;
-}
-.elem-5 {
-	width: 100%;
-	height: auto;
-	margin-left: 5px;
-	margin-right: 5px;
-	text-align: center;
-
-}
-.elem-6 {
-	width: 100%;
-	height: auto;
-}
-.elem-7 {
-	width: 100%;
-	height: auto;
-}
-.elem-8 {
-	width: 100%;
-	height: auto;
-}
-.elem-1, .elem-2 {
-	width: 50%;
-	}
-.imag-1 {
-	width: 50px;
-	height: 50px;
-	}
-h1 {
-	font-size: 20px;
-	}
-	.imag-2 {
-		width:100%;
-		border-radius: 10px;
-		border: 2px solid black;
-	}
-	.imag-3, .imag-4, .imag-5 {
-		width: 100%;
-		border-radius: 10px;
-		box-shadow: 2px 2px 10px black;
-		margin-top: 10px;
-	}
-	.elem-6, .elem-7, .elem-8{
-		text-align: center;
-	}
-
-
-@media screen and (min-width: 400px) {
-	h2 {
-		text-align: center;
-		margin: 0 0 20px 0;
-		border-bottom: 2px solid orange;
-		padding-bottom: 15px;
-		font-family: 'Mukta Malar', sans-serif;
-		margin-top: 15px;
-		text-shadow: 1px 1px 7px gray;
-	}
-	h1 {
-		font-size: 2em;
-		color: black;
-		text-shadow: 2px 2px 7px grey;
-		text-align: right;
-		font-family: 'Mukta Malar', sans-serif;
-	}
-	.elem-6, .elem-7, .elem-8 {
-		max-width: 70%;
-			}
-	.container-3 {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-	}
-	.imag-1 {
-		width: 110px;
-		height: 110px;
-	}
-	.container-1 {
-		position: sticky;
-		background: white;
-		top: 0;
-	}
-	.imag-2 {
-		max-width: 99%;
-		display: flex;
-	}
-	.container-2 {
-		width: 100%;
-	}
-}
-
-@media screen and (min-width: 600px) {
-	.container-3 {
-		display: flex;
-		flex-wrap: nowrap;
-	}
-	.elem-6, .elem-7, .elem-8 {
-		max-width: 33%;
-		margin:10px;
-	}
-	.imag-3, .imag-4, .imag-5 {
-		height: 100%;	
-	}
-	p {
-		font-size: 1.5em;
-	}
-}
-
-@media screen and (min-width: 800px) {
-	body {
-		max-width: 70%;
-		margin:auto;	}
 	.container-2 {
 		margin-left: 3px;
 	}
